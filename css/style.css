@@ -1,0 +1,203 @@
+/* Left & Right alignment */
+.wrapper {width:100%; overflow:hidden;}
+.padNull{padding: 0;}
+.marNull{margin: 0;}
+/* Global properties ======================================================== */
+.glob{width:100%; height:100%; position:absolute; overflow:hidden;}
+body{font-family:Arial, sans-serif; color:#000; line-height:20px; min-width: 950px; min-height:100%; position:absolute; width:100%; height:100%; overflow:hidden;}
+/* Global Structure ========================================================= */
+.main {margin:0px auto 0 auto; 	width: 948px; z-index:2; height:100%;}
+.page_spinner{ position:fixed; background:#000; z-index:99; width:100%; height:100%; top:0; left:0}
+.page_spinner > span{position: absolute; left: 50%; top: 50%;}
+/* ============================= main layout ================================ */
+a{ color:#fff; text-decoration:none; outline:none; font-size: 14px;}
+a:hover{ text-decoration:underline}
+h1{float:left; position: relative;}
+h2{color:#636363; font-size: 20px; line-height: 20px; width:100%; padding-bottom: 11px; text-align: center; font-weight: normal;}
+h3{color:#666666; font-size: 15px; line-height: 20px; width:100%; padding-bottom: 2px; text-align: left; font-weight: normal; margin-top: 2px;}
+p{font-size: 12px; color: #6b6b6b; line-height: 18px; padding-bottom: 18px; text-align: center;}
+.center{padding:0; width:100%; position: relative; display: inline-block; height: 100%;}
+/* ============================= header ============================ */
+header{position: relative; width: 303px; height: 100%; z-index: 3; float: left; margin-right: 25px;}
+.hide_text{text-indent: 100%; white-space: nowrap; overflow: hidden;}
+#logo{display:inline-block; background: url(../images/logo.png) 50% 0% no-repeat; width: 303px; height: 422px;}
+#logo:hover{text-decoration:none;}
+.logoHolder{ display:inline-block; position: relative; height: 369px; width: 100%; float: left;}
+.menu{position:relative; z-index:1; display: inline-block;}
+.menuHolder{ position: relative; width: 100%; z-index: 1; float: left; display: inline-block; height: 101px;}
+#menu {z-index:3; position:relative; display: inline-block; float: left;}
+#menu > li{position:relative; color: white; text-align: left; display: inline-block; float: left; height: 48px; width: 215px; background: url(../images/line1.png) 50% 100% no-repeat; margin: 0 44px;}
+#menu > li > a{display: block; position:relative; z-index: 1; overflow: hidden; text-transform: uppercase; height: 48px;}
+#menu > li > a:hover{text-decoration:none;}
+#menu ._last{padding: 0; border: none;}
+.submenu_1{position:absolute; z-index:2; top: 0px; left: 244px; display: block; width: 145px; background: #dfdbce;}
+.submenu_1 li{ position:relative; display:inline-block; float: left; width: 100%; text-transform: uppercase; border-bottom: 1px solid #cac6bb; height: 38px;}
+.submenu_1 a{line-height: 38px; color: #000; font-size: 14px; display:inline-block; width: 100%; text-align: center;}
+.submenu_1 li > a:hover, .submenu_1 li.sfHover > a{text-decoration:none; color:#805550;}
+.submenu_1 .last{border: none;}
+.submenu_2{position:absolute; z-index:2; top: 0px; left: 150px; display: block; width: 145px; background: #dfdbce;}
+.submenu_2 li{ position:relative; display:inline-block; float: left; width: 100%; text-transform: uppercase; border-bottom: 1px solid #cac6bb; height: 38px;}
+.submenu_2 a{line-height: 38px; color: #000; font-size: 14px; display:inline-block; width: 100%; text-align: center;}
+.submenu_2 li > a:hover, .submenu_1 li.sfHover > a{text-decoration:none; color:#805550;}
+.submenu_2 .last{border: none;}
+.mText{line-height: 18px; color: #e7e3d7; font-size: 14px; position: relative; width: 100%; z-index: 2; text-align: center; margin-top: 15px;}
+.mText_over{line-height: 18px; color: #000; font-size: 14px; position: absolute; width: 100%; z-index: 2; text-align: center;}
+._area{position: absolute; width: 100%; height: 100%; top: 0; z-index: 3; left: 0; display: block; background: url(../images/pixel.png);}
+._overPl{position: absolute; width: 100%; height: 100%; top: 0px; z-index: 0; left: 0; display: block; background: url(../images/bg2.png) 0 0 no-repeat;}
+/* ============================= content ====================== */
+#content{position:relative; z-index: 1; width: 620px; margin: 0 auto; display: block; float: left; overflow: visible; height: 100%;}
+#content > ul{width: 620px; z-index: 0; display: inline-block; position: relative; overflow: visible; height: 100%;}
+#content > ul > li{width: 620px; display:block; position:absolute; height: 100%;}
+.box{width: 620px; position: relative; display: inline-block; background: #fff; height: 100%;}
+.space1{display:inline-block; width: 67px; text-align: left;}
+.space2{display:inline-block; width: 51px; text-align: left;}
+.more{font-size: 12px; color: #c4bfb1; padding: 6px 15px; background: url(../images/moreSprite.png); line-height: 17px;}
+.more:hover{text-decoration: none; color: #413b47;}
+._link1{font-size: 12px; color: #9B9B9B;}
+._link2{color: #2a2a2a; font-size: 12px; line-height: 18px; font-style: italic;}
+.marRight1{margin-right: 20px;}
+.marRight2{margin-right: 10px;}
+.marRight3{margin-right: 35px;}
+.padBot1{padding-bottom: 22px;}
+.padBot2{padding-bottom: 7px;}
+.padBot3{padding-bottom: 16px;}
+.padBot4{padding-bottom: 8px;}
+.padBot6{padding-bottom: 10px;}
+.padBot8{padding-bottom: 32px;}
+.padBot9{padding-bottom: 26px;}
+.padBot10{padding-bottom: 13px;}
+#bgStretch {overflow:hidden; z-index:-1; display: block;}
+#bgStretch img{background-color: #000;}
+.spinner_bg{position: fixed; width: 0px; height: 0px; z-index:10000; left: 50%; top: 50%; display: inline-block;}
+.navGall{position: relative; display: inline-block; z-index: 2; height: 12px; width: 100%; text-align: center;}
+.navGall > ul{position: relative; display: inline-block;}
+.navGall > ul > li{position: relative; width: 9px; height: 9px; float: left; margin: 0 5px;}
+.navGall > ul > li >a{width: 9px; height: 9px; position: relative; display: inline-block;}
+.navGall > ul > li >a ._over_marker{width: 9px; height: 9px; position: absolute; display: inline-block; background: url(../images/point_over.png) 0 0 no-repeat; top: 0; left: 0; z-index: 2;}
+.navGall > ul > li >a ._over{width: 9px; height: 9px; position: absolute; display: inline-block; background: url(../images/point.png) 0 0 no-repeat; top: 0; left: 0; z-index: 1;}
+.header_bg{position: absolute; top: 0; left: 0; width: 303px; height: 100%; display: inline-block; background: url(../images/bg1.png);}
+.contHolder{position: relative; height: 870px;}
+._fig1{width: 100%;}
+._fig1 img{display: inline-block; margin-bottom: 31px;}
+._fig1 figcaption{width: 100%; display: block; color: #7f7f7f; font-size: 14px; font-style: italic; text-align: center;}
+._fig2{width: 100%;}
+._fig2 img{display: inline-block; margin-bottom: 24px;}
+._fig2 figcaption{width: 100%; display: block; text-align: center;}
+._fig3{display: inline-block; position: relative;}
+._fig4{display: inline-block; position: relative; margin-bottom: 16px;}
+._list1{width: 100%; position: relative; margin-top: -9px;}
+._list1 > li{position: relative; width: 100%; background: url(../images/marker1.png) 0 50% no-repeat; margin-bottom: 4px;}
+._list1 > li > a{font-style: italic; font-size: 12px; color: #7f7f7f; margin-left: 13px;}
+.divSet1{padding-bottom: 50px; margin-bottom: 41px; background: url(../images/divider1.png) 50% 100% no-repeat;}
+.divSet2{padding-bottom: 58px; margin-bottom: 40px; background: url(../images/divider1.png) 50% 100% no-repeat;}
+.divSet3{padding-bottom: 34px; margin-bottom: 40px; background: url(../images/divider1.png) 50% 100% no-repeat;}
+.textStyle1{font-size: 30px; line-height: 30px; padding-bottom: 35px;}
+.textStyle2{text-align: left; padding-bottom: 0;}
+#jcarousel_1{margin-top: 4px;}
+#jcarousel_1 > ul{width: 940px;}
+#jcarousel_1 > ul > li{width: 140px; height: 157px; position: relative; float: left; margin-right: 18px;}
+.btnHolder1{position: absolute; top: 36px; right: 0px; width: 50px; z-index: 2;}
+#jcarousel_2{margin-top: 4px;}
+#jcarousel_2 > ul{width: 940px;}
+#jcarousel_2 > ul > li{width: 140px; height: 157px; position: relative; float: left; margin-right: 18px;}
+.btnHolder2{position: absolute; top: 36px; right: 0px; width: 50px; z-index: 2;}
+#jcarousel_3{margin-top: 4px;}
+#jcarousel_3 > ul{width: 940px;}
+#jcarousel_3 > ul > li{width: 140px; height: 157px; position: relative; float: left; margin-right: 18px;}
+.btnHolder3{position: absolute; top: 36px; right: 0px; width: 50px; z-index: 2;}
+.zoomSp{display:block; position:absolute; left:0; top:0; width: 129px; height: 145px; z-index:3; background: url(../images/magnify.png) 50% 50% no-repeat #404040; margin: 6px 6px;}
+.extra1{width: 26px; height: 50px; display: inline-block; position: relative; float: left; background: url(../images/extra1.png) 0 0 no-repeat; margin-right: 6px;}
+.textAlign1{text-align: center;}
+.prevBtn{position: relative; float: left;}
+.nextBtn{position: relative; float: right;}
+/* ============================= footer ====================== */
+.footer{position: absolute; width: 303px; z-index: 2; height: 71px; display: inline-block; bottom: 0; float: left;}
+.mainFooter { z-index:2; width: 303px; display: inline-block;}
+.textPrivacy{font-family:Arial,sans-serif; font-size: 12px; color: #9B9B9B; position:relative; display:inline-block;}
+.privHold{ position: relative; display: inline-block; float: left; width: 100%; text-align: center;}
+/*===================================Map=====================================*/
+.google_map{ width:450px; height:226px; background: #fff; display: inline-block; padding: 6px; border: 1px solid #d4d4d4; margin-bottom: 19px;}
+.google_map > span{position: absolute; top: 45%; left: 50%;}
+/* ============================= forms ============================= */
+#ContactForm {
+	padding:0; 
+}
+#ContactForm .bg{
+	padding:0; 
+	display: inline-block; 
+	float: left; 
+	position: relative; 
+}
+#ContactForm .wrapper {
+	overflow:inherit; 
+	min-height:40px; 
+}
+#ContactForm .success {  
+	font-size:10px; 
+    position:relative; 
+    float:left; 
+	color: #000; 
+	width: 100%; 
+	line-height: 11px; 
+	padding-bottom: 2px; 
+}
+#ContactForm label {
+	position:relative; 
+	display:inline-block; 
+	float: left; 
+	width: 100%; 
+	padding-bottom: 10px; 
+}
+#ContactForm .error,#ContactForm .empty {
+	font-size: 10px; 
+	color: #000; 
+	line-height:9px; 
+	display:none; 
+	width: 100%; 
+	top:0px; 
+	position:relative; 
+	float: left; 
+	text-align: right; 
+}
+#ContactForm a {
+	position:relative; 
+	z-index:1; 
+}
+#ContactForm a:hover {text-decoration:none;}
+#ContactForm .input {
+	width: 376px; 
+	padding: 6px 10px; 
+	color: #6B6B6B; 
+	outline:none; 
+	font-size: 12px; 
+    font-family: Arial, sans-serif; 
+    box-shadow: none; 
+	border: 1px solid #d8d8d8; 
+	line-height: 16px; 
+}
+#ContactForm textarea {
+	overflow:auto; 
+	margin:0; 
+	width: 376px; 
+	height: 79px; 
+	padding: 6px 10px; 
+	color: #6B6B6B; 
+	resize:none; 
+	outline:none; 
+	font-size: 12px; 
+    font-family: Arial, sans-serif; 
+	box-shadow: none; 
+	border: 1px solid #d8d8d8; 
+}
+#ContactForm .block {
+	display:inline-block; 
+	position:relative; 
+	width: 100%; 
+	float: left; 
+}
+._field_set{position: relative; float: left;}
+#ContactForm .marNone{margin: 0;} 
+#ContactForm ._label{width: 62px; color: #6B6B6B; font-size: 12px; position: relative; float: left; margin-top: 8px;} 
+.formButtons{position:relative; float: right; display: inline-block; margin-top: 9px;}
+.formBtn{display:inline-block; position:relative; margin-left: 2px;}
+/* ============================= end forms ============================= */
