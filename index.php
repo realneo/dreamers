@@ -25,6 +25,15 @@
     <body>
         <div class="glob">
         <div id="bgStretch"><img src="images/gall_pic1.jpg" alt=""></div>
+        <div class="sidebar pos-right shadow icon show">
+                <a href="#"><div class="sidebar-content ico-facebook"></div></a>
+                <a href="#"><div class="sidebar-content ico-twitter"></div></a>
+                <a href="#"><div class="sidebar-content ico-google-plus"></div></a>
+                <a href="#"><div class="sidebar-content ico-vimeo"></div></a>
+                <a href="#"><div class="sidebar-content ico-youtube"></div></a>
+                <a href="#"><div class="sidebar-content ico-skype"></div></a>
+                <a href="#"><div class="sidebar-content ico-pinterest"></div></a>
+        </div>
         <div class="page_spinner"><span></span></div>  
         <div class="main">
             <div class="center"> 
