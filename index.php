@@ -1,87 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Dreamer's Executive Hotel</title>
-  <meta charset="utf-8">
-  <link href='images/favicon.ico' rel='shortcut icon'>
-  <link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/jqtransform.css">
-  <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
-  <script src="js/jquery-1.7.1.js" ></script>
-  <script src="js/scripts.js"></script>
-  <!--[if lt IE 9]>
-  	<script type="text/javascript" src="js/html5.js"></script>
-  <![endif]-->
-	<!--[if lt IE 8]>
-		<div style=' clear: both; text-align:center; position: relative;'>
-			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
-		</div>
-	<![endif]-->
-</head>
-<body>
-<div class="glob">
-<div id="bgStretch"><img src="images/gall_pic1.jpg" alt=""></div>
-<div class="page_spinner"><span></span></div>  
-<div class="main">
-    <div class="center"> 
-    <!--header -->        
-        <header>
-            <div class="header_bg"></div>
-            <div class="contHolder">
-                <div class="logoHolder">
-                    <h1><a class="hide_text" href="#!/pageHome" id="logo">Xagro</a></h1>
-                </div>
-                <div class="menuHolder">
+    <head>
+      <title>Dreamer's Executive Hotel</title>
+      <meta charset="utf-8">
+      <link href='images/favicon.ico' rel='shortcut icon'>
+      <link href='http://fonts.googleapis.com/css?family=Yeseva+One' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/layout.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/jqtransform.css">
+      <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
+      <script src="js/jquery-1.7.1.js" ></script>
+      <script src="js/scripts.js"></script>
+      <!--[if lt IE 9]>
+        <script type="text/javascript" src="js/html5.js"></script>
+      <![endif]-->
+        <!--[if lt IE 8]>
+            <div style=' clear: both; text-align:center; position: relative;'>
+                <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a>
+            </div>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="glob">
+        <div id="bgStretch"><img src="images/gall_pic1.jpg" alt=""></div>
+        <div class="page_spinner"><span></span></div>  
+        <div class="main">
+            <div class="center"> 
+            <!--header -->        
+                <header>
+                    <div class="header_bg"></div>
+                    <div class="contHolder">
+                        <div class="logoHolder">
+                            <h1><a class="hide_text" href="#!/pageHome" id="logo">Dreamer's Executive Hotel</a></h1>
+                        </div>
+                        <div class="menuHolder">
                             <nav class="menu">
-        				    	<ul id="menu">
-                                    <li>
-                                        <a href="#!/pageHome">
-                                            <div class="mText">home</div>
-                                        </a>
-                                    </li> 
-        					       	<li class="with_ul">
-                                        <a href="#!/pageAbout">
-                                            <div class="mText">about us</div>
-                                        </a>
+                                <ul id="menu">
+                                    <li><a href="#!/pageHome"><div class="mText">home</div></a></li> 
+                                    <li class="with_ul"><a href="#!/pageAbout"><div class="mText">about us</div></a>
                                         <ul class="submenu_1">
-                                    	   <li><a href="#!/pageMore">history</a></li>
-                                    	   <li>
+                                            <li><a href="#!/pageMore">history</a></li>
+                                            <li>
                                                 <a href="#!/pageMore">our staff</a>
                                                 <ul class="submenu_2">
-                                            	   <li><a href="#!/pageMore">our team</a></li>
-                                            	   <li class="last"><a href="#!/pageMore">bio</a></li>
+                                                   <li><a href="#!/pageMore">our team</a></li>
+                                                   <li class="last"><a href="#!/pageMore">bio</a></li>
                                                 </ul> 
                                             </li>
-                                    	   <li class="last"><a href="#!/pageMore">special</a></li>
+                                            <li class="last"><a href="#!/pageMore">special</a></li>
                                         </ul>  
                                     </li>
-                                    <li>
-                                        <a href="#!/pageReservation">
-                                                <div class="mText">Reservation</div>
-                                        </a>
-                                    </li> 
-                                    <li>
-                                        <a href="#!/pageRooms_Suites">
-                                                <div class="mText">Rooms &amp; Suites</div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#!/pagePackages">
-                                                <div class="mText">packages</div>
-                                        </a>
-                                    </li>
-                                    <li class="_last">
-                                        <a  href="#!/pageContact">
-                                                <div class="mText">Contact</div>
-                                        </a>
-                                    </li>
-        					   </ul>
-        				    </nav>
-                        </div>
-                    </div>
+                                    <li><a href="#!/pageReservation"><div class="mText">Reservation</div></a></li> 
+                                    <li><a href="#!/pageRooms_Suites"><div class="mText">Rooms &amp; Suites</div></a></li>
+                                    <li><a href="#!/pagePackages"><div class="mText">packages</div></a></li>
+                                    <li class="_last"><a  href="#!/pageContact"><div class="mText">Contact</div></a></li>
+                                </ul>
+                            </nav>
+                                </div>
+                            </div>
                       <!--footer -->
                     <div class="footer">
         				<!-- {%FOOTER_LINK} -->
@@ -94,12 +71,12 @@
                             </div>
                         <div class="mainFooter">
                             <div class="privHold">
-                                 <pre class="textPrivacy">Royal &copy; 2012 | <a class="_link1" href="#!/pagePrivacy">Privacy Policy</a></pre>
+                                 <pre class="textPrivacy">Dreamer's Executive Hotel &copy; 2013 <br /> <a class="_link1" href="#!/pagePrivacy">Privacy Policy</a></pre>
                             </div>
                         </div>
         			</div>
            	    <!--footer end-->
-        </header>
+                </header>
 <!--header end-->                   
 			<!--content -->
 			<article id="content">
@@ -112,7 +89,7 @@
                                     <h2 class="textStyle1">Welcome To Our Site!</h2>
                                     <figure class="_fig1">
                                         <img src="images/page1pic1.png" alt="">
-                                        <figcaption>Welcome to our Hotel! Lorem ipsum sit amet, consectetur adipiscing<br>Vestibulum ultricies, ligula non ornare, sed eget tortor erat.</figcaption>
+                                        <figcaption>Welcome to our Hotel! Dreamers Executive Hotel lets you Explore the Executive Experience with us.</figcaption>
                                     </figure>
                                 </div>
                                 <div class="col1">
@@ -121,7 +98,7 @@
                                         <figure class="_fig2">
                                             <img src="images/page1pic2.png" alt="">
                                             <figcaption>
-                                                <p>Lorem ipsum dolor sit amet, consecttur adipiscing elit. Nullam consecteturi is a felis non hendrerit viverra, erat auguest condimentum eros, at malesuada nisi elit in massa. Maecenas ultrices mi in urna euismod scelerisque.</p>
+                                                <p>Tantalize your senses and tempt your taste buds at Dreamers' restaurant. Our menus feature many locally sourced ingredients. Join us and enjoy Dreamers' new tastes, friendly atmosphere, great service, and generous portions.</p>
                                                 <a href="#" class="more">Read More</a>
                                             </figcaption>
                                         </figure>
@@ -336,12 +313,12 @@
                                     <h2>Phones</h2>
                                     <p class="padBot4">Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem tibulum!</p>
                                     <div class="col2 marRight1">
-                                        <p class="padBot6"><strong>For information and accommodation</strong><br>+1 959 603 6035</p>
-                                        <p><strong>Fax</strong><br>+1 101 889 9898</p>
+                                        <p class="padBot6"><strong>For information and accommodation</strong><br>+255 22 332322131</p>
+                                        <p><strong>Fax</strong><br>+255 22 332322131</p>
                                     </div>
                                     <div class="col2">
-                                        <p class="padBot6"><strong>For restaurant reservations</strong><br>+1 959 603 6035</p>
-                                        <p><strong>For meetings or special events</strong><br>+1 959 603 6035</p>
+                                        <p class="padBot6"><strong>For restaurant reservations</strong><br>+255 22 332322131</p>
+                                        <p><strong>For meetings or special events</strong><br>+255 22 332322131</p>
                                     </div>
                                 </div>
                                 
@@ -556,12 +533,15 @@
                                     </div>
                                     <div class="col1 textAlign1 divSet3">
                                         <p class="padBot10">Nullam consecteturi is a felis non hendrerit viverra.erat auguest condimentum eros, at malesuada nisi elit in massa. Maecenas ultrices mi in urna euismod.</p>
-                                        <p><strong>8901 Marmora Road, Glasgow, D04 89GR.</strong></p>
+                                        <p><strong>
+                                                Uhuru Street, Buguruni.<br />
+                                                P.O.Box 40808, Dar es salaam, Tanzania.
+                                        </strong></p>
                                         <div class="col4">
                                             <p>
-                                                <span class="space1">Telephone:</span>+1 800 603 6035<br>
-                                                <span class="space1">FAX:</span>+1 800 603 6035<br>
-                                                <span class="space2">E-mail:</span><a class="_link2" href="mailto:">mail@demolink.org</a>
+                                                <span class="space1">Telephone:</span> +255 787 565818<br>
+                                                <span class="space1">Mobile:</span> +255 718 688828<br>
+                                                <a class="_link2" href="mailto:"> info@dreamersexecutivehotel.com</a>
                                             </p>
                                         </div>
                                     </div>
