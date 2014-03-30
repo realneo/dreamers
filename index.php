@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/layout.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/social_style.css">
       <link rel="stylesheet" href="css/jqtransform.css">
       <link rel="stylesheet" href="css/jquery.fancybox-1.3.4.css">
       <script src="js/jquery-1.7.1.js" ></script>
@@ -98,7 +99,7 @@
                                         <figure class="_fig2">
                                             <img src="images/page1pic2.png" alt="">
                                             <figcaption>
-                                                <p>Tantalize your senses and tempt your taste buds at Dreamers' restaurant. Our menus feature many locally sourced ingredients. Join us and enjoy Dreamers' new tastes, friendly atmosphere, great service, and generous portions.</p>
+                                                <p>Tantalize your senses and tempt your taste buds at Dreamers' restaurant. Our menus feature many locally sourced ingredients. Join us and enjoy Dreamers' new tastes, fri endly atmosphere, great service, and generous portions.</p>
                                                 <a href="#" class="more">Read More</a>
                                             </figcaption>
                                         </figure>
