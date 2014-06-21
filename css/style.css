@@ -20,7 +20,7 @@ p{font-size: 12px; color: #6b6b6b; line-height: 18px; padding-bottom: 18px; text
 /* ============================= header ============================ */
 header{position: relative; width: 303px; height: 100%; z-index: 3; float: left; margin-right: 25px;}
 .hide_text{text-indent: 100%; white-space: nowrap; overflow: hidden;}
-#logo{display:inline-block; background: url(../images/logo.png) 50% 0% no-repeat; width: 303px; height: 422px;}
+#logo{position:relative; margin-left:55px; margin-top:200px;}
 #logo:hover{text-decoration:none;}
 .logoHolder{ display:inline-block; position: relative; height: 369px; width: 100%; float: left;}
 .menu{position:relative; z-index:1; display: inline-block;}
@@ -105,6 +105,10 @@ header{position: relative; width: 303px; height: 100%; z-index: 3; float: left; 
 #jcarousel_3 > ul{width: 940px;}
 #jcarousel_3 > ul > li{width: 140px; height: 157px; position: relative; float: left; margin-right: 18px;}
 .btnHolder3{position: absolute; top: 36px; right: 0px; width: 50px; z-index: 2;}
+#jcarousel_4{margin-top: 4px;}
+#jcarousel_4 > ul{width: 940px;}
+#jcarousel_4 > ul > li{width: 140px; height: 157px; position: relative; float: left; margin-right: 18px;}
+.btnHolder4{position: absolute; top: 36px; right: 0px; width: 50px; z-index: 2;}
 .zoomSp{display:block; position:absolute; left:0; top:0; width: 129px; height: 145px; z-index:3; background: url(../images/magnify.png) 50% 50% no-repeat #404040; margin: 6px 6px;}
 .extra1{width: 26px; height: 50px; display: inline-block; position: relative; float: left; background: url(../images/extra1.png) 0 0 no-repeat; margin-right: 6px;}
 .textAlign1{text-align: center;}
@@ -201,3 +205,10 @@ header{position: relative; width: 303px; height: 100%; z-index: 3; float: left; 
 .formButtons{position:relative; float: right; display: inline-block; margin-top: 9px;}
 .formBtn{display:inline-block; position:relative; margin-left: 2px;}
 /* ============================= end forms ============================= */
+
+h4{
+    color:#413b47;
+    font-weight:lighter;
+    font-size:14px;
+    text-decoration: underline;
+}

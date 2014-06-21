@@ -104,6 +104,7 @@ $(".followHolder > ul > li > a").hoverSprite({onLoadWebSite: true});
 $(".btnHolder1 a").hoverSprite({onLoadWebSite: true});
 $(".btnHolder2 a").hoverSprite({onLoadWebSite: true});
 $(".btnHolder3 a").hoverSprite({onLoadWebSite: true});
+$(".btnHolder4 a").hoverSprite({onLoadWebSite: true});
 
 $('.more').sprites({method:'gStretch', hover:true})
 
@@ -130,6 +131,12 @@ $('#form1').jqTransform({imgPath:'images/'});
         visible: 3
     });
     
+    $("#jcarousel_4").jCarouselLite({
+        btnNext: ".btnHolder4 > .nextBtn",
+        btnPrev: ".btnHolder4 > .prevBtn",
+        speed: 800,
+        visible: 3
+    });
     
  $('.pic').fancybox({'titlePosition': 'inside', 'overlayColor':'#000'}); 
 $('.zoomSp').fadeTo(500, 0)
